@@ -41,7 +41,7 @@ export default function ProductPage() {
     {
       id: 4,
       image: "4.jpg",
-      title: "Nike Air Zoom Pegasus 37",
+      title: "Nike Air Zoom 37",
       price: 7800,
       description:
         "The Nike Air Zoom Pegasus 37 helps deliver the support you need in a fit that helps you feel fast. Zoom Air feels soft yet bouncy to give you the responsiveness you need for long miles.",
@@ -65,7 +65,7 @@ export default function ProductPage() {
     {
       id: 7,
       image: "7.jpg",
-      title: "Nike Air VaporMax Flyknit 3",
+      title: "Nike Air 3",
       price: 6900,
       description:
         "The Nike Air VaporMax Flyknit 3 brings bounce to your step with Max Air cushioning that stretches from heel to toe. Flyknit construction hugs your foot for a comfortable fit.",
