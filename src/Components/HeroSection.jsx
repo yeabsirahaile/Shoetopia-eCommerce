@@ -22,7 +22,7 @@ export default function HeroSection() {
       "
       >
         <video
-          className=" h-full scale-110 object-cover  "
+          className=" h-full scale-110 border-2 border-green-400 object-cover  "
           src="/src/assets/images/Greenshoe.mp4"
           autoPlay
           loop

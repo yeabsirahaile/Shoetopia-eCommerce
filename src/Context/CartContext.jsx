@@ -9,6 +9,7 @@ export function useCart() {
 
 export function CartProvider({ children }) {
   const [cart, setCart] = useState([]);
+  const [isCartOpen, setIsCartOpen] = useState(false); // State to control cart visibility
 
   console.log(cart);
 
@@ -22,7 +23,9 @@ export function CartProvider({ children }) {
   };
 
   return (
-    <CartContext.Provider value={{ cart, addToCart, removeFromCart }}>
+    <CartContext.Provider
+      value={{ cart, addToCart, removeFromCart, isCartOpen, setIsCartOpen }}
+    >
       {children}
     </CartContext.Provider>
   );
