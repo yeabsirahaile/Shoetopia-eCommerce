@@ -35,7 +35,7 @@ export default function Cart() {
                 >
                   <img
                     className="  w-11"
-                    src={`/src/assets/Images/${item.image}`}
+                    src={`/assets/Images/${item.image}`}
                     alt="noimg"
                   />
                   <span>{item.title}</span>

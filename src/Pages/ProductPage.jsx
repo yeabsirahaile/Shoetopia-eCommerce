@@ -123,7 +123,7 @@ export default function ProductPage() {
               {" "}
               <img
                 className="max-h-[320px] w-full overflow-hidden rounded-lg object-cover object-center"
-                src={`/src/assets/images/${selectedProduct.image}`}
+                src={`/assets/Images/${selectedProduct.image}`}
                 alt={selectedProduct.title}
               />
             </div>
@@ -171,7 +171,7 @@ function ProductCard({ product, openModal }) {
       onClick={() => openModal(product)}
     >
       <img
-        src={`/src/assets/images/${image}`}
+        src={`/assets/Images/${image}`}
         alt={title}
         className="h-48 w-full object-cover"
       />

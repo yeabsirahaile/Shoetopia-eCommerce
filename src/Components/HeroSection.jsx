@@ -1,4 +1,4 @@
-import Vector1 from "../assets/Vector1";
+import Vector1 from "../../public/assets/Vector1";
 
 export default function HeroSection() {
   return (
@@ -23,7 +23,7 @@ export default function HeroSection() {
       >
         <video
           className=" h-full scale-110 border-2 border-green-400 object-cover  "
-          src="/src/assets/images/Greenshoe.mp4"
+          src="/assets/Images/Greenshoe.mp4"
           autoPlay
           loop
           muted
